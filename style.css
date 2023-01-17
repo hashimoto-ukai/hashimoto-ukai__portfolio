@@ -237,6 +237,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .l-news {
   width: 100%;
   margin-bottom: 200px;
@@ -428,7 +446,7 @@
   .l-footer__anim {
     transition: all .3s;
   }
-  
+
   .l-footer__anim {
     opacity: 1;
     animation: marquee 45s linear infinite;
@@ -440,7 +458,7 @@
     white-space: nowrap;
     margin-top: -8vh;
   }
-  
+
   .l-footer__inline {
     display: block;
     padding-right: 0.5em;

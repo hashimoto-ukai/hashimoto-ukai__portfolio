@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>chillout</title>
+  <link rel="stylesheet" href="./slick/slick.css">
+  <link rel="stylesheet" href="./slick/slick-theme.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -143,6 +145,14 @@
 
 
 
+      
+
+
+
+
+
+
+
 
 
 
@@ -175,7 +185,7 @@
               <div class="l-news__categoryBox">
                 <div class="l-news__dateBox">
                   <div class="l-news__date">2022.12.5</div>
-                </div>  
+                </div>
                 <div class="l-news__category">Campaign</div>
               </div>
             </div>
@@ -206,7 +216,7 @@
               </div>
             </div>
           </div>
-        
+
           <div class="l-news__list">
             <div class="l-news__item">
               <img src="https://cdn.pixabay.com/photo/2021/08/23/18/37/tea-6568547_1280.jpg" class="l-news__img">
@@ -333,5 +343,20 @@
 
 
   </div>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider-001').slick({
+        infinite: true, //スライドのループ有効化
+         dots:true, //ドットのナビゲーションを表示
+        centerMode: true, //要素を中央寄せ
+        centerPadding:'10%', //両サイドの見えている部分のサイズ
+        autoplay:true, //自動再生
+      });
+    });
+
+  </script>
 </body>
 </html>
