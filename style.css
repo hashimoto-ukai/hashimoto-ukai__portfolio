@@ -209,17 +209,19 @@
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  width: 100%;
 }
 .slide-001 {
-  width: 28%;
+  width: 30%;
   background-color: #add8e6;
-  margin: 50px 50px;
+  margin: 30px 100px;
   border-radius: 20px;
 }
 .slide__img {
-  width: 80%;
-  height:150px;
+  width: 50%;
+  height: 100px;
   padding-top: 20px;
+  margin: 40px auto;
 }
 .slide-content-text {
   margin-top: 40px;
