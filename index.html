@@ -34,7 +34,9 @@
       <div class="l-main__subTitleBox">
         <p class="l-main__subTitle">休憩イノベーション<br>リラクゼーションドリンク</p>
       </div>
-      <iframe width="70%" height="500" src="https://www.youtube.com/embed/M8NnK845H5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="l-main__movie">
+        <iframe width="70%" height="500" src="https://www.youtube.com/embed/M8NnK845H5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
 
 
@@ -90,11 +92,15 @@
           <img src="https://cdn.pixabay.com/photo/2016/04/02/21/01/earth-1303628_1280.png" class="l-main__advertisementImg">
         </div>
       </div>
+
+
+
+
       <div class="l-main__recommend">
         <a href="#" class="l-main__recommendLink">
           <img src="https://cdn.pixabay.com/photo/2016/01/19/08/43/town-sign-1148092__480.jpg" class="l-main__recommendImg1">
         </a>
-        <a href="#">
+        <a href="#" class="l-main__recommendLink">
           <img src="https://cdn.pixabay.com/photo/2015/05/15/10/38/sunlight-768141_1280.jpg" class="l-main__recommendImg2">
         </a>
       </div>
@@ -364,11 +370,11 @@
 
     $(document).ready(function(){
       $('.l-news__listBox').slick({
-        infinite: true, //スライドのループ有効化
-         dots:true, //ドットのナビゲーションを表示
-        centerMode: true, //要素を中央寄せ
-        centerPadding:'40%', //両サイドの見えている部分のサイズ
-        autoplay:true, //自動再生
+        infinite: true,
+         dots:true,
+        centerMode: true,
+        centerPadding:'40%',
+        autoplay:true,
       });
     });
 
