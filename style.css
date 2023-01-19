@@ -195,13 +195,15 @@
 }
 .l-main__recommendImg1 {
   width: 100%;
-  height: 9rem;
+  height: auto;
   margin-right: 20px;
+  max-height: 130px;
 }
 .l-main__recommendImg2 {
   width: 100%;
-  height: 9rem;
+  height: auto;
   margin-left: 20px;
+  max-height: 130px;
 }
 .l-main__recommendLink {
   margin-right: 40px;
