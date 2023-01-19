@@ -1090,6 +1090,8 @@
   text-align: center;
 }
 .l-footer__menuList {
+  text-align: center;
+  display: contents;
 }
 .l-footer__menuItem {
   list-style: none;
