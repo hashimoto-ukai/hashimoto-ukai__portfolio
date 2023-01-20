@@ -19,10 +19,52 @@
   font-size: 30px;
   margin-right: 10px;
   cursor: pointer;
+  position: relative;
+  z-index: 2;
 }
 .l-header__menu {
   cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  z-index: 2;
 }
+
+
+
+
+/* ハンバーガーメニュー */
+.l-header__nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255,255,255,0.9);
+}
+.l-header__nav.is-active {
+  display: flex;
+}
+.l-header__nav li {
+  list-style: none;
+}
+.l-header__menuText {
+  text-decoration: none;
+  color: #000000;
+  font-size: 70px;
+  margin-left: 50px;
+  margin-bottom: 70px;
+  font-weight: 800;
+  cursor: pointer;
+  line-height: 2;
+}
+
+
+
+
+
 .l-main {
   width: 100%;
   text-align: center;
@@ -225,25 +267,47 @@
 }
 .slide-001 {
   width: 20%;
-  background-color: #add8e6;
-  margin: 1rem 3rem;
+  background-color: #b0c4de;
+  margin: 2rem 2rem;
   border-radius: 20px;
 }
 .slide__img {
-  width: 50%;
-  height: 100px;
+  width: 70%;
+  height: auto;
   padding-top: 20px;
   margin: 40px auto;
 }
+.slide__box {
+  width: 100%;
+}
 .slide-content-text {
-  margin-top: 40px;
-  font-size: 20px;
+  margin-top: 70px;
+  font-size: 100%;
   font-weight: 700;
 }
 .slide-content-subtext {
   margin-top: 40px;
-  margin-bottom: 40px;
-  font-size: 15px;
+  margin-bottom: 70px;
+  font-size: 30%;
+}
+.slick-prev
+{
+    left: 50px;
+}
+.slick-next
+{
+    right: 50px;
+    color: #000000;
+}
+.slick-prev,
+.slick-next
+{
+    z-index: 100;
+}
+.slick-prev:before,
+.slick-next:before
+{
+    color: black;
 }
 
 
@@ -595,10 +659,59 @@
   font-size: 30px;
   margin-right: 10px;
   cursor: pointer;
+  position: relative;
+  z-index: 2;
 }
 .l-header__menu {
   cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  z-index: 2;
+  }
+
+
+
+
+
+
+
+
+/* ハンバーガーメニュー*/
+
+
+.l-header__nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255,255,255,0.9);
 }
+.l-header__nav.is-active {
+  display: flex;
+}
+.l-header__nav li {
+  list-style: none;
+}
+.l-header__menuText {
+  text-decoration: none;
+  color: #000000;
+  font-size: 50px;
+  margin-left: 30px;
+  margin-bottom: 100px;
+  font-weight: 800;
+  cursor: pointer;
+  line-height: 1.7;
+}
+
+
+
+
+
+
 .l-main {
   width: 100%;
   text-align: center;
@@ -802,7 +915,7 @@
   width: 100%;
 }
 .slide-001 {
-  width: 60%;
+  width: 40%;
   background-color: #e0ffff;
   margin: 1rem 1rem;
   border-radius: 20px;

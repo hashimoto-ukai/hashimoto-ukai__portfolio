@@ -14,10 +14,36 @@
     <div class="l-header">
       <div class="l-header__menuBox">
         <div class="l-header__buttonIcon">・</div>
-        <div class="l-header__menu">
-          <p id="l-header__menuText">Menu</p>
-        </div>
+        <a href="#" class="l-header__menu">
+          <p class="l-header__menufont">Menu</p>
+        </a>
       </div>
+
+
+
+
+      <nav class="l-header__nav">
+        <ul>
+          <li><a href="#" class="l-header__menuText">Home</a></li>
+          <li><a href="#" class="l-header__menuText">About</a></li>
+          <li><a href="#" class="l-header__menuText">Product</a></li>
+          <li><a href="#" class="l-header__menuText">FAQ</a></li>
+        </ul>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
     <div class="l-main">
       <div class="l-main__titleBox">
@@ -113,15 +139,17 @@
 
         <div class="slide-001">
           <div class="slide-content-001">
-            <img src="https://cdn.pixabay.com/photo/2019/02/09/10/14/tin-can-3984776_1280.jpg" class="slide__img">
-            <p class="slide-content-text">サウナでチルする？</p>
+            <img src="https://cdn.pixabay.com/photo/2014/12/21/23/36/cans-575632_1280.png" class="slide__img">
+            <div class="slide__box">
+              <p class="slide-content-text">サウナでチルする？</p>
+            </div>
             <p class="slide-content-subtext">Chill after taking a sauna?</p>
           </div>
         </div>
 
         <div class="slide-001">
           <div class="slide-content-001">
-            <img src="https://cdn.pixabay.com/photo/2019/04/28/12/26/cans-4163012_1280.jpg" class="slide__img">
+            <img src="https://cdn.pixabay.com/photo/2014/12/21/23/36/cans-575632_1280.png" class="slide__img">
             <p class="slide-content-text">仕事の合間にチルする？</p>
             <p class="slide-content-subtext">Chill during work?</p>
           </div>
@@ -129,7 +157,7 @@
 
         <div class="slide-001">
           <div class="slide-content-001">
-            <img src="https://cdn.pixabay.com/photo/2017/06/26/08/29/tin-2443066_1280.png" class="slide__img">
+            <img src="https://cdn.pixabay.com/photo/2014/12/21/23/36/cans-575632_1280.png" class="slide__img">
             <p class="slide-content-text">オヤスミ前にチルする？</p>
             <p class="slide-content-subtext">Chill before bedtime?</p>
           </div>
@@ -137,7 +165,7 @@
 
         <div class="slide-001">
           <div class="slide-content-001">
-            <img src="https://cdn.pixabay.com/photo/2015/01/08/04/21/box-592370_1280.jpg" class="slide__img">
+            <img src="https://cdn.pixabay.com/photo/2014/12/21/23/36/cans-575632_1280.png" class="slide__img">
             <p class="slide-content-text">起きたあとにチルする？</p>
             <p class="slide-content-subtext">Chill after wake up ?</p>
           </div>
@@ -355,6 +383,7 @@
 
 
   </div>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
@@ -366,8 +395,9 @@
         infinite: true, //スライドのループ有効化
          dots:true, //ドットのナビゲーションを表示
         centerMode: true, //要素を中央寄せ
-        centerPadding:'30%', //両サイドの見えている部分のサイズ
+        centerPadding:'35%', //両サイドの見えている部分のサイズ
         autoplay:true, //自動再生
+
       });
     });
 
@@ -377,11 +407,17 @@
     $(document).ready(function(){
       $('.l-news__listBox').slick({
         infinite: true,
-         dots:true,
+        dots:true,
         centerMode: true,
         centerPadding:'37%',
         autoplay:true,
       });
+    });
+
+
+    $('.l-header__menu').click(function() {
+      $('.l-header__menu').toggleClass('is-active');
+      $('.l-header__nav').toggleClass('is-active');
     });
 
 
