@@ -77,17 +77,17 @@
   margin-right: 500px;
   font-size: 2rem;
   font-family: monospace;
-  color: #008080;
+  color: #191970;
 }
 .l-main__titleText {
   font-size: 9rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #008080;
+  color: #191970;
   height: 40px;
   margin: 0;
 }
 .l-main__titleText2 {
-  color: #008080;
+  color: #191970;
   font-size: 3rem;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 130px;
@@ -99,6 +99,7 @@
 .l-main__subTitle {
   font-weight: bold;
   font-size: 1rem;
+  color: #5f9ea0;
 }
 .iframeWrap iframe {
   aspect-ratio: 5/3;
@@ -142,7 +143,7 @@
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  text-shadow: #add8e6 1px 1px 0px, #add8e6 -1px 1px 0px, #add8e6 1px -1px 0px, #add8e6 -1px -1px 0px;
+  text-shadow: #191970 1px 1px 0px, #191970 -1px 1px 0px, #191970 1px -1px 0px, #191970 -1px -1px 0px;
   letter-spacing : -3px;
 }
 @keyframes marquee {
@@ -188,7 +189,7 @@
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  text-shadow: #add8e6 1px 1px 0px, #add8e6 -1px 1px 0px, #add8e6 1px -1px 0px, #add8e6 -1px -1px 0px;
+  text-shadow: #191970 1px 1px 0px, #191970 -1px 1px 0px, #191970 1px -1px 0px, #191970 -1px -1px 0px;
   letter-spacing : -3px;
 }
 @keyframes marquee2 {
@@ -212,13 +213,13 @@
   margin-left: 3rem;
 }
 .l-main__advertisementTitle {
-  font-size: 4rem;
+  font-size: 44px;
   font-weight: 700;
   text-align: left;
 }
 .l-main__advertisementText {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 23px;
   font-weight: bold;
   line-height: 55px;
 }
@@ -263,7 +264,7 @@
 }
 .slide-001 {
   width: 20%;
-  background-color: #b0c4de;
+  background-color: #f0f8ff;
   margin: 2rem 2rem;
   border-radius: 20px;
 }
@@ -337,7 +338,7 @@
 .l-news__content {
   font-size: 16rem;
   font-weight: 900;
-  color: #add8e6;
+  color: #6495ed;
   text-align: left;
   margin: 0;
   position: relative;
@@ -503,7 +504,7 @@
 .l-main__titleText3 {
   font-size: 120px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #008080;
+  color: #191970;
   height: 40px;
   margin: 0;
   position: relative;
@@ -512,7 +513,7 @@
 
 }
 .l-main__titleText4 {
-  color: #008080;
+  color: #191970;
   font-size: 50px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 130px;
@@ -564,7 +565,7 @@
     font-weight: 600;
     letter-spacing: 0.1em;
     white-space: nowrap;
-    color: #008080;
+    color: #191970;
     text-align: center;
     white-space: nowrap;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -609,8 +610,8 @@
     color: #000000;
     font-size: 10px;
   }
-}
 
+}
 
 
 
@@ -711,7 +712,7 @@
 .l-main__titleSubText {
   font-size: 15px;
   font-family: monospace;
-  color: #008080;
+  color: #191970;
   text-align: left;
   margin-left: 20px;
 }
@@ -721,12 +722,12 @@
 .l-main__titleText {
   font-size: 75px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #008080;
+  color: #191970;
   height: 40px;
   margin: 0;
 }
 .l-main__titleText2 {
-  color: #008080;
+  color: #191970;
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 30px;
@@ -738,6 +739,7 @@
 .l-main__subTitle {
   font-weight: bold;
   font-size: 15px;
+  color: #5f9ea0;
 }
 .iframeWrap iframe {
   aspect-ratio: 5/3;
@@ -777,7 +779,7 @@
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  text-shadow: #add8e6 1px 1px 0px, #add8e6 -1px 1px 0px, #add8e6 1px -1px 0px, #add8e6 -1px -1px 0px;
+  text-shadow: #191970 1px 1px 0px, #191970 -1px 1px 0px, #191970 1px -1px 0px, #191970 -1px -1px 0px;
   letter-spacing : -3px;
 }
 @keyframes marquee {
@@ -821,7 +823,7 @@
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  text-shadow: #add8e6 1px 1px 0px, #add8e6 -1px 1px 0px, #add8e6 1px -1px 0px, #add8e6 -1px -1px 0px;
+  text-shadow: #191970 1px 1px 0px, #191970 -1px 1px 0px, #191970 1px -1px 0px, #191970 -1px -1px 0px;
   letter-spacing : -3px;
 }
 @keyframes marquee2 {
@@ -901,7 +903,7 @@
 }
 .slide-001 {
   width: 40%;
-  background-color: #e0ffff;
+  background-color: #f0f8ff;
   margin: 1rem 1rem;
   border-radius: 20px;
 }
@@ -958,7 +960,7 @@
 .l-news__content {
   font-size: 7rem;
   font-weight: 700;
-  color: #add8e6;
+  color: #6495ed;
   text-align: left;
   margin: 0;
   position: relative;
@@ -1132,7 +1134,7 @@
 .l-main__titleText3 {
   font-size: 75px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #008080;
+  color: #191970;
   height: 40px;
   margin: 0;
   position: relative;
@@ -1141,7 +1143,7 @@
 
 }
 .l-main__titleText4 {
-  color: #008080;
+  color: #191970;
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
@@ -1184,7 +1186,7 @@
   font-weight: 600;
   letter-spacing: 0.1em;
   white-space: nowrap;
-  color: #008080;
+  color: #191970;
   text-align: center;
   white-space: nowrap;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

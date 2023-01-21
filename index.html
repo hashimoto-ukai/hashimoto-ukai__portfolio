@@ -111,7 +111,7 @@
         <div class="l-main__advertisement__content">
           <p class="l-main__advertisementTitle">ストレス社会で<br>耐える人に<br>安らぎのひと時を</p>
           <p class="l-main__advertisementText">
-          ストレスが渦巻いてる世の中。<br>今必要なのは「安らぎ」のひと時だ。<br>精神的、身体的ストレスフリーへ CALM DOWN。
+          ストレスが渦巻いてる世の中。<br>今必要なのは「安らぎ」の<br>ひと時だ。<br>精神的、身体的ストレスフリーへ CALM DOWN。
           </p>
         </div>
         <div class="l-main__advertisementImgBox">
@@ -139,7 +139,9 @@
 
         <div class="slide-001">
           <div class="slide-content-001">
-            <img src="https://cdn.pixabay.com/photo/2015/10/10/16/41/sauna-981027_1280.jpg" class="slide__img">
+            <a href="#">
+              <img src="https://cdn.pixabay.com/photo/2015/10/10/16/41/sauna-981027_1280.jpg" class="slide__img">
+            </a>
             <div class="slide__box">
               <p class="slide-content-text">サウナでチルする？</p>
             </div>
@@ -149,7 +151,9 @@
 
         <div class="slide-001">
           <div class="slide-content-001">
-            <img src="https://cdn.pixabay.com/photo/2017/07/31/18/17/calendar-2559708_1280.jpg" class="slide__img">
+            <a href="#">
+              <img src="https://cdn.pixabay.com/photo/2017/07/31/18/17/calendar-2559708_1280.jpg" class="slide__img">
+            </a>
             <p class="slide-content-text">仕事の合間にチルする？</p>
             <p class="slide-content-subtext">Chill during work?</p>
           </div>
@@ -157,7 +161,9 @@
 
         <div class="slide-001">
           <div class="slide-content-001">
-            <img src="https://cdn.pixabay.com/photo/2019/11/02/20/50/camera-4597415_1280.jpg" class="slide__img">
+            <a href="#">
+              <img src="https://cdn.pixabay.com/photo/2019/11/02/20/50/camera-4597415_1280.jpg" class="slide__img">
+             </a>
             <p class="slide-content-text">オヤスミ前にチルする？</p>
             <p class="slide-content-subtext">Chill before bedtime?</p>
           </div>
@@ -165,7 +171,9 @@
 
         <div class="slide-001">
           <div class="slide-content-001">
-            <img src="https://cdn.pixabay.com/photo/2017/08/06/13/23/flower-2592475_1280.jpg" class="slide__img">
+            <a href="#">
+              <img src="https://cdn.pixabay.com/photo/2017/08/06/13/23/flower-2592475_1280.jpg" class="slide__img">
+             </a>
             <p class="slide-content-text">起きたあとにチルする？</p>
             <p class="slide-content-subtext">Chill after wake up ?</p>
           </div>
@@ -377,15 +385,15 @@
   <script>
     $(document).ready(function(){
       $('.slider-001').slick({
-        infinite: true, //スライドのループ有効化
-        dots:true, //ドットのナビゲーションを表示
+        infinite: true, //スライドのループ
+        dots:true, //ドットのナビゲーション
         centerMode: true, //要素を中央寄せ
         centerPadding:'35%', //両サイドの見えている部分のサイズ
         autoplay:true, //自動再生
         responsive: [{
           breakpoint: 769,
           settings: {
-            centerPadding:'15%', //両サイドの見えている部分のサイズ
+            centerPadding:'15%',
           },
         }],
       });
@@ -404,9 +412,9 @@
         responsive: [{
           breakpoint: 769,
           settings: {
-            centerPadding:'30%', //両サイドの見えている部分のサイズ
-            autoplay:true, //自動再生
-            infinite: true, //スライドのループ有効化
+            centerPadding:'30%',
+            autoplay:true,
+            infinite: true,
           },
         }],
       });
@@ -429,8 +437,8 @@
         var width = $(window).width();
         if(width <= 768){
           $(".l-main__recommend").slick({
-            dots: true,// ドットインジケーターの表示
-            autoplay:true, //自動再生
+            dots: true,
+            autoplay:true,
       });
         } else {
           $(".l-main__recommend.slick-initialized").slick("unslick");
@@ -442,6 +450,17 @@
         sliderSetting();
       });
     });
+
+
+    $('.l-footer__menuLink').hover(function() {
+      $(this).css('background','#c00');
+    }, function() {
+      $(this).css('background','')
+    });
+
+
+
+
 
 
 
