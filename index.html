@@ -124,10 +124,10 @@
 
       <div class="l-main__recommend">
         <a href="#" class="l-main__recommendLink">
-          <img src="https://cdn.pixabay.com/photo/2021/07/03/05/10/road-6383072_1280.jpg" class="l-main__recommendImg1">
+          <img src="https://cdn.pixabay.com/photo/2021/07/03/05/10/road-6383072_1280.jpg" class="l-main__recommendImg">
         </a>
         <a href="#" class="l-main__recommendLink">
-          <img src="https://cdn.pixabay.com/photo/2018/12/04/08/42/antalya-3855080_1280.jpg" class="l-main__recommendImg2">
+          <img src="https://cdn.pixabay.com/photo/2018/12/04/08/42/antalya-3855080_1280.jpg" class="l-main__recommendImg">
         </a>
       </div>
 
@@ -182,21 +182,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-      <!-- <div class="your-class">
-        <div>your content</div>
-        <div>your content</div>
-        <div>your content</div>
-      </div> -->
 
 
 
@@ -397,7 +382,12 @@
         centerMode: true, //要素を中央寄せ
         centerPadding:'35%', //両サイドの見えている部分のサイズ
         autoplay:true, //自動再生
-
+        responsive: [{
+          breakpoint: 769,
+          settings: {
+            centerPadding:'15%', //両サイドの見えている部分のサイズ
+          },
+        }],
       });
     });
 
@@ -411,6 +401,14 @@
         centerMode: true,
         centerPadding:'40%',
         autoplay:true,
+        responsive: [{
+          breakpoint: 769,
+          settings: {
+            centerPadding:'30%', //両サイドの見えている部分のサイズ
+            autoplay:true, //自動再生
+            infinite: true, //スライドのループ有効化
+          },
+        }],
       });
     });
 
@@ -419,6 +417,34 @@
       $('.l-header__menu').toggleClass('is-active');
       $('.l-header__nav').toggleClass('is-active');
     });
+
+
+
+
+
+
+    $(document).on('ready', function() {
+      function sliderSetting(){
+
+        var width = $(window).width();
+        if(width <= 768){
+          $(".l-main__recommend").slick({
+            dots: true // ドットインジケーターの表示
+      });
+        } else {
+          $(".l-main__recommend.slick-initialized").slick("unslick");
+        }
+      }
+      sliderSetting();
+
+      $(window).resize( function(){
+        sliderSetting();
+      });
+    });
+
+
+
+
 
 
 
