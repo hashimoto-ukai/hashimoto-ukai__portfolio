@@ -1,16 +1,9 @@
-body {
-  font-family: "Helvetica Neue",
-    Arial,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-    Meiryo,
-    sans-serif;
-}
-
-
 
 /* PCスタイル */
 @media screen and (min-width: 769px) {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Yu Gothic Bold", YuGothic, "Hiragino Sans", Meiryo, sans-serif;
+  }
 .l-wrap {
   max-width: 100%;
   overflow-x : hidden;
@@ -665,6 +658,9 @@ body {
 
 /* SPスタイル */
 @media screen and (max-width: 768px) {
+  body {
+    font-family: "Noto Sans JP", sans-serif;
+  }
 .l-wrap {
   max-width: 100%;
   overflow-x : hidden;
