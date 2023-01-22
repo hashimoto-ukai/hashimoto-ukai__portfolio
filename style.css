@@ -1,3 +1,9 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Yu Gothic Bold", YuGothic, "Hiragino Sans", Meiryo, sans-serif;
+}
+
+
+
 /* PCスタイル */
 @media screen and (min-width: 769px) {
 .l-wrap {
@@ -20,14 +26,14 @@
   margin-right: 10px;
   cursor: pointer;
   position: relative;
-  z-index: 2;
+  z-index: 4;
 }
 .l-header__menu {
   cursor: pointer;
   text-decoration: none;
   color: #000000;
   position: relative;
-  z-index: 2;
+  z-index: 4;
 }
 
 
@@ -39,7 +45,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 3;
   width: 100vw;
   height: 100vh;
   background-color: rgba(255,255,255,0.9);
@@ -50,15 +56,16 @@
 .l-header__nav li {
   list-style: none;
 }
+.l-header__menuList {
+  margin-top: 150px;
+}
 .l-header__menuText {
   text-decoration: none;
   color: #000000;
-  font-size: 70px;
-  margin-left: 50px;
-  margin-bottom: 70px;
+  font-size: 80px;
+  margin-left: 200px;
   font-weight: 800;
   cursor: pointer;
-  line-height: 2;
 }
 
 
@@ -115,7 +122,7 @@
   height: 14rem;
   margin: 0 auto;
   overflow: hidden;
-
+  z-index: -1;
 }
 .c-marquee__anim {
   transition: all .3s;
@@ -162,6 +169,7 @@
   height: 14rem;
   margin: 0 auto;
   overflow: hidden;
+  z-index: -1;
 }
 .c-marquee__anim2 {
   transition: all .3s;
@@ -225,6 +233,7 @@
 }
 .l-main__advertisementImgBox {
   width: 50%;
+  z-index: -1;
 }
 .l-main__advertisementImg {
   width: 100%;
@@ -261,6 +270,7 @@
   align-items: center;
   margin-top: 100px;
   width: 100%;
+  z-index: -1;
 }
 .slide-001 {
   width: 20%;
@@ -344,9 +354,11 @@
   position: relative;
   top: 150px;
   left: 0px;
+  z-index: -1;
 }
 .l-news__listBox {
   display: flex;
+  z-index: -1;
 }
 .l-news__list {
   width: 15%;
@@ -510,6 +522,7 @@
   position: relative;
   top: -80px;
   left: 100px;
+  z-index: -1;
 
 }
 .l-main__titleText4 {
@@ -520,6 +533,7 @@
   position: relative;
   top: -120px;
   left: 100px;
+  z-index: -1;
 }
 
 
@@ -544,6 +558,7 @@
   }
   .l-footer__anim {
     transition: all .3s;
+    z-index: -1;
   }
 
   .l-footer__anim {
@@ -628,6 +643,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* SPスタイル */
 @media screen and (max-width: 768px) {
 .l-wrap {
@@ -650,14 +680,14 @@
   margin-right: 10px;
   cursor: pointer;
   position: relative;
-  z-index: 2;
+  z-index: 4;
 }
 .l-header__menu {
   cursor: pointer;
   text-decoration: none;
   color: #000000;
   position: relative;
-  z-index: 2;
+  z-index: 4;
   }
 
 
@@ -675,7 +705,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 3;
   width: 100vw;
   height: 100vh;
   background-color: rgba(255,255,255,0.9);
@@ -686,15 +716,17 @@
 .l-header__nav li {
   list-style: none;
 }
+.l-header__menuList {
+  margin-top: 150px;
+}
 .l-header__menuText {
   text-decoration: none;
   color: #000000;
   font-size: 50px;
-  margin-left: 30px;
+  margin-left: 10%;
   margin-bottom: 100px;
   font-weight: 800;
   cursor: pointer;
-  line-height: 1.7;
 }
 
 
@@ -751,6 +783,7 @@
   height: 10rem;
   margin: 0 auto;
   overflow: hidden;
+  z-index: -1;
 
 }
 .c-marquee__anim {
@@ -796,6 +829,7 @@
   height: 10rem;
   margin: 0 auto;
   overflow: hidden;
+  z-index: -1
 }
 .c-marquee__anim2 {
   transition: all .3s;
@@ -873,6 +907,7 @@
 .l-main__recommend {
   margin-top: 90px;
   width: 100%;
+  z-index: -1;
 }
 .l-main__recommendLink {
   width: 100%;
@@ -900,6 +935,7 @@
   align-items: center;
   margin-top: 100px;
   width: 100%;
+  z-index: -1;
 }
 .slide-001 {
   width: 40%;
@@ -966,9 +1002,11 @@
   position: relative;
   top: 80px;
   left: 0px;
+  z-index: -1;
 }
 .l-news__listBox {
   display: flex;
+  z-index: -1;
 }
 .l-news__list {
   width: 30%;
@@ -1128,9 +1166,6 @@
 .l-main__titleTextContent {
   z-index: 2;
 }
-.l-main__titleTextContent {
-
-}
 .l-main__titleText3 {
   font-size: 75px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1140,6 +1175,7 @@
   position: relative;
   top: -50px;
   left: 0px;
+  z-index: -1;
 
 }
 .l-main__titleText4 {
@@ -1149,6 +1185,7 @@
   position: relative;
   top: -50px;
   left: 0px;
+  z-index: -1;
 }
 
 
@@ -1165,6 +1202,7 @@
 }
 .l-footer__anim {
   transition: all .3s;
+  z-index: -1;
 }
 
 .l-footer__anim {
