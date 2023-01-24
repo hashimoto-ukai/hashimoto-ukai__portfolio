@@ -390,6 +390,8 @@
         centerMode: true, //要素を中央寄せ
         centerPadding:'35%', //両サイドの見えている部分のサイズ
         autoplay:true, //自動再生
+        prevArrow: '<button class="slide-arrow prev-arrow">→</button>',
+        nextArrow: '<button class="slide-arrow next-arrow">←</button>',
         responsive: [{
           breakpoint: 769,
           settings: {
@@ -401,18 +403,6 @@
 
 
 
-  //   $('.slider-001').slick({
-  //   infinite: true,
-  //   dots: true,
-  //   centerMode: true, //要素を中央寄せ
-  //   centerPadding: '35%', //両サイドの見えている部分のサイズ
-  //   autoplay: true,
-  //   speed: 500,
-  // });
-
-
-
-
     $(document).ready(function(){
       $('.l-news__listBox').slick({
         infinite: true,
@@ -420,6 +410,8 @@
         centerMode: true,
         centerPadding:'40%',
         autoplay:true,
+        prevArrow: '<button class="slide-arrow2 prev-arrow2">←  Prev</button>',
+        nextArrow: '<button class="slide-arrow2 next-arrow2">Next  →</button>',
         responsive: [{
           breakpoint: 769,
           settings: {
