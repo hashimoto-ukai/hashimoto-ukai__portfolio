@@ -597,6 +597,68 @@
 
 
 
+.l-main__store {
+  width: 100%;
+}
+.l-main__storeText {
+  font-size: clamp(11.2rem, -2.23rem + 27.91vw, 18.7rem);
+  font-weight: 750;
+  color: #6495ed;
+  text-align: left;
+  margin: 0;
+  position: relative;
+  top: 150px;
+  left: 0px;
+  z-index: -1;
+  line-height: 80%;
+}
+.l-main__storeContainer {
+  padding-top: 0px;
+  padding-left: 46%;
+}
+.l-main__storeInfo {
+  font-size: clamp(1.25rem, 0.135rem + 2.32vw, 1.875rem);
+  font-weight: 600;
+  line-height: 190%;
+  text-align: left;
+}
+.l-main__storeSubInfo {
+  text-align: left;
+  font-size: clamp(0.625rem, -0.49rem + 2.32vw, 1.25rem);
+}
+.l-main__storeLinkBox {
+  display: flex;
+  margin-top: 10%;
+  padding-left: 0;
+}
+.l-main__storeLinkBox li {
+  list-style: none;
+  width: 30%;
+}
+.l-main__storeLink {
+  text-decoration: none;
+  display: flex;
+  margin-right: 10%;
+  align-items: center;
+  text-align: left;
+}
+.l-main__storeName {
+  color: #000000;
+  font-size: clamp(0.75rem, -0.142rem + 1.86vw, 1.25rem);
+  font-weight: bold;
+  margin-right: 10%;
+}
+.arrow {
+  color: #000;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -654,6 +716,7 @@
   .l-footer__menu {
     margin-top: 100px;
     margin-left: 50px;
+    margin-bottom: 200px;
   }
   .l-footer__menuItem {
     list-style: none;
@@ -1341,6 +1404,7 @@
 .l-footer__menu {
   margin-top: 100px;
   text-align: center;
+  margin-bottom: 150px;
 }
 .l-footer__menuList {
   text-align: center;
@@ -1376,6 +1440,13 @@
   font-size: clamp(0.625rem, 0.029rem + 2.54vw, 1.25rem);
 }
 
+
+canvas{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
 
 
 

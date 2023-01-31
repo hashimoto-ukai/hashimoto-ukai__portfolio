@@ -307,6 +307,43 @@
 
 
 
+      <div class="l-main__store">
+        <p class="l-main__storeText">Store<br>Info</p>
+        <div class="l-main__storeContainer">
+          <p class="l-main__storeInfo">全国のコンビニエンスストア、<br>ドラッグストア、ディスカウントストア,<br>スーパーマーケット、<br>自動販売機などで未発売。</p>
+          <p class="l-main__storeSubInfo">※一部店舗除く</p>
+
+
+
+          <ul class="l-main__storeLinkBox">
+            <li>
+              <a href="#" class="l-main__storeLink">
+                <p class="l-main__storeName">ストア</p>
+                <div class="arrow">↗︎</div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="l-main__storeLink">
+                <p class="l-main__storeName">ストア</p>
+                <div class="arrow">↗︎</div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="l-main__storeLink">
+                <p class="l-main__storeName">ストア</p>
+                <div class="arrow__box">
+                  <div class="arrow">↗︎</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+
+
+
 
 
 
@@ -496,7 +533,7 @@
 
 
     $('.l-footer__menuLink').hover(function() {
-      $(this).css('background','#c00');
+      $(this).css('background','#87cefa');
     }, function() {
       $(this).css('background','')
     });
@@ -534,12 +571,12 @@ function init() {
     colorList = [];
     // canvas1個めの色指定
     canvasList.push(document.getElementById("waveCanvas"));
-    colorList.push(['#333', '#666', '#111']);//重ねる波の色設定
+    colorList.push(['#1e90ff', '#6495ed', '#00bfff']);//重ねる波の色設定
   // 各キャンバスの初期化
 for(var canvasIndex in canvasList) {
         var canvas = canvasList[canvasIndex];
         canvas.width = document.documentElement.clientWidth; //Canvasのwidthをウィンドウの幅に合わせる
-        canvas.height = 200;//波の高さ
+        canvas.height = 80;//波の高さ
         canvas.contextCache = canvas.getContext("2d");
     }
     // 共通の更新処理呼び出し
