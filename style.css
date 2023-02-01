@@ -378,7 +378,7 @@
   width: 15%;
   align-items: center;
   text-align: left;
-  margin-right: 50px;
+  margin-right: 70px;
   margin-top: 20px;
 }
 .l-news__list:nth-child(even) {
@@ -648,8 +648,14 @@
   font-weight: bold;
   margin-right: 10%;
 }
+.arrow__box {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  border-radius: 50%;
+}
 .arrow {
-  color: #000;
+  color: #fff;
   font-size: 15px;
 }
 
@@ -1347,6 +1353,35 @@
   left: 0px;
   z-index: -1;
 }
+
+
+
+
+
+
+.l-main__store {
+  width: 100%;
+}
+.l-main__storeText {
+  font-size: clamp(6.875rem, -0.878rem + 33.08vw, 15rem);
+  font-weight: 700;
+  color: #6495ed;
+  text-align: left;
+  margin: 0;
+  position: relative;
+  top: 80px;
+  left: 0px;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
 
 
 
