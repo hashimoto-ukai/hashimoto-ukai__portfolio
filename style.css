@@ -662,7 +662,7 @@
   display: none;
 }
 .arrow__container {
-  width: 15%;
+  width: 16%;
 
 }
 .arrow__box {
@@ -673,14 +673,14 @@
 }
 
 .arrow {
-  font-size: clamp(0.313rem, -0.284rem + 2.54vw, 0.938rem);
-  color: #6495ed;
+  color: #fff;
   position: absolute;
   top: calc((100% - 1em)/2);
   left: 0;
   right: 0;
   margin: 0;
   text-align: center;
+  font-size: 10px;
 
 
 }
@@ -1443,7 +1443,6 @@
 }
 .arrow__container {
   width: 10%;
-  border: 3px solid #333;
 
 }
 .arrow__box {
@@ -1452,10 +1451,16 @@
   height: 0;
 
 }
+.arrow__box {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  border-radius: 50%;
+}
 
 .arrow {
   font-size: clamp(0.313rem, -0.284rem + 2.54vw, 0.938rem);
-  color: #6495ed;
+  color: #fff;
   position: absolute;
   top: calc((100% - 1em)/2);
   left: 0;
