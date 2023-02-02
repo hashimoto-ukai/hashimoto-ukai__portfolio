@@ -1363,7 +1363,7 @@
   width: 100%;
 }
 .l-main__storeText {
-  font-size: clamp(6.875rem, -0.878rem + 33.08vw, 15rem);
+  font-size: clamp(6.25rem, 0.286rem + 25.45vw, 12.5rem);
   font-weight: 700;
   color: #6495ed;
   text-align: left;
@@ -1371,6 +1371,7 @@
   position: relative;
   top: 80px;
   left: 0px;
+  line-height: 1;
   z-index: -1;
 }
 
