@@ -1122,7 +1122,7 @@
   align-items: center;
   margin-top: 100px;
   width: 100%;
-  z-index: -1;
+  /* z-index: -1;ここ治すと動かなくなる */
 }
 .slide-001 {
   width: 40%;
@@ -1193,7 +1193,7 @@
 }
 .l-news__listBox {
   display: flex;
-  z-index: -1;
+  /* z-index: -1;ここを治すと動かなくなる */
 }
 .l-news__list {
   width: 30%;
@@ -1442,7 +1442,7 @@
   margin-right: 15%;
 }
 .arrow__container {
-  width: 10%;
+  width: 25%;
 
 }
 .arrow__box {
@@ -1459,7 +1459,7 @@
 }
 
 .arrow {
-  font-size: clamp(0.313rem, -0.284rem + 2.54vw, 0.938rem);
+  font-size: 10px;
   color: #fff;
   position: absolute;
   top: calc((100% - 1em)/2);
