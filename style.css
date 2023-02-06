@@ -332,8 +332,127 @@
 
 
 
-.l-drink {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c-chillout3 {
+  position: relative;
+  max-width: 100%;
+  height: 14rem;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: -1;
+  top: -50%;
+}
+.c-marquee__anim3 {
+  transition: all .3s;
+}
+
+.c-marquee__anim3 {
+  opacity: 1;
+  animation: marquee 45s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  transform: translate(-50%, 0%);
+  white-space: nowrap;
+  margin-top: -8vh;
+}
+
+.c-marquee__inline3 {
+  display: block;
+  padding-right: 0.5em;
+  font-size: 140px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: #191970 1px 1px 0px, #191970 -1px 1px 0px, #191970 1px -1px 0px, #191970 -1px -1px 0px;
+  letter-spacing : -3px;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(-40%, 0%);
+  }
+  100% {
+    transform: translate(-60%, 0%);
+  }
+}
+
+
+.c-chillout4 {
+  position: relative;
+  max-width: 100%;
+  height: 14rem;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: -1;
+}
+.c-marquee__anim4 {
+  transition: all .3s;
+}
+
+.c-marquee__anim4 {
+  opacity: 1;
+  animation: marquee2 45s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  transform: translate(-50%, 0%);
+  white-space: nowrap;
+  margin-top: -8vh;
+}
+
+.c-marquee__inline4 {
+  display: block;
+  padding-right: 0.5em;
+  font-size: 140px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: #191970 1px 1px 0px, #191970 -1px 1px 0px, #191970 1px -1px 0px, #191970 -1px -1px 0px;
+  letter-spacing : -3px;
+}
+@keyframes marquee2 {
+  100% {
+    transform: translate(-40%, 0%);
+  }
+  0% {
+    transform: translate(-60%, 0%);
+  }
+}
+
+
+
+
+.l-drink {
+  width: 100%;
+  position: relative;
+  top: -250px;
 }
 
 .l-drink__img {
@@ -376,7 +495,7 @@
   width: 20%;
   z-index: -100;
   position: relative;
-  top: -135px;
+  top: -400px;
   right: -60%;
 }
 .l-main__advertisementImg3 {
