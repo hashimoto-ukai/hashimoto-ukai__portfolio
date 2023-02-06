@@ -241,6 +241,9 @@
           </div>
         </div>
       </div>
+      <div class="l-main__advertisementImgBox3">
+        <img src="https://cdn.pixabay.com/photo/2016/04/02/21/01/earth-1303628_1280.png" class="l-main__advertisementImg3">
+      </div>
 
 
 
@@ -555,7 +558,12 @@
 
 
 
-    $('.l-drink__img').slick();
+    $('.l-drink__img').slick({
+      // centerMode: true,
+      centerPadding:'0%',
+      prevArrow: '<button class="drink-arrow prev-arrow3">←</button>',
+      nextArrow: '<button class="drink-arrow next-arrow3">→</button>',
+    });
 // ここはドリンクのスライダー
 
 
