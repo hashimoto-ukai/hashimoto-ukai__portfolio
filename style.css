@@ -465,6 +465,9 @@
   border: #000000 7px solid;
   overflow: hidden;
 }
+.l-drink__content {
+  overflow: visible;
+}
 .ppp {
   width: 25%;
   margin: auto;
@@ -477,6 +480,7 @@
   border-radius: 50%;
   width: 8%;
   height: 8%;
+  /* overflow: visible; */
 }
 .prev-arrow3 {
   position: absolute;
@@ -485,6 +489,7 @@
   z-index: 2;
   font-size: clamp(0.625rem, -0.49rem + 2.32vw, 1.25rem);
   margin: auto;
+  /* overflow: visible; */
 }
 .next-arrow3 {
   position: absolute;
