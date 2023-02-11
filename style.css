@@ -15,6 +15,7 @@
 .l-header {
   width: 100%;
   position: fixed;
+  z-index: 9999;
 }
 .l-header__menuBox {
   display: flex;
@@ -274,6 +275,8 @@
 
 
 
+
+
 .slider-001 {
   display: flex;
   justify-content: center;
@@ -475,6 +478,7 @@
   border-radius: 50%;
   border: #4169e1 7px solid;
   aspect-ratio: 5/5;
+  overflow: hidden;
 }
 .drink-arrow {
   background-color: #008080;
@@ -500,16 +504,29 @@
   font-size: clamp(0.625rem, -0.49rem + 2.32vw, 1.25rem);
 }
 .l-main__advertisementImgBox3 {
-  width: 20%;
+  width: 25%;
   z-index: -100;
   position: relative;
-  top: -400px;
+  top: -470px;
   right: -60%;
 }
 .l-main__advertisementImg3 {
   width: 100%;
   animation:15s linear infinite rotation1;
 }
+
+.l-main__advertisementImgBox4 {
+  width: 12%;
+  position: relative;
+  top: -720px;
+  right: -66%;
+}
+.l-main__advertisementImg4 {
+  width: 100%;
+  z-index: 200;
+}
+
+
 
 
 
@@ -610,6 +627,7 @@
   text-align: center;
   font-size: clamp(0.063rem, -1.499rem + 3.25vw, 0.938rem);
   margin-left: 10%;
+  margin-block: 0px;
 }
 .l-main__allnews {
   text-align: left;
@@ -1034,6 +1052,7 @@
 .l-header {
   width: 100%;
   position: fixed;
+  z-index: 9999;
 }
 .l-header__menuBox {
   display: flex;
@@ -1493,10 +1512,12 @@
   margin: auto;
   padding: 15%;
 }
+/* ↓新しく追加したとこ */
 .l-drink__box .slick-list {
   border-radius: 50%;
   border: #4169e1 7px solid;
   aspect-ratio: 5/5;
+  overflow: hidden;
 }
 .drink-arrow {
   background-color: #008080;
@@ -1532,6 +1553,17 @@
   width: 100%;
   animation:15s linear infinite rotation1;
 }
+.l-main__advertisementImgBox4 {
+  width: 20%;
+  position: relative;
+  bottom: 450px;
+  left: 76%;
+}
+.l-main__advertisementImg4 {
+  width: 100%;
+  z-index: 200;
+}
+
 
 
 
@@ -1630,6 +1662,7 @@
   text-align: center;
   font-size: clamp(0.625rem, 0.029rem + 2.54vw, 1.25rem);
   margin-left: 10%;
+  margin-block: 0px;
 }
 .l-main__allnews {
   text-align: left;
@@ -1839,7 +1872,7 @@
 }
 
 .arrow {
-  font-size: 10px;
+  font-size: clamp(0.5rem, 0.381rem + 0.51vw, 0.625rem);
   color: #fff;
   position: absolute;
   top: calc((100% - 1em)/2);
