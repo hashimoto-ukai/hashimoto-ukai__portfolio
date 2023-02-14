@@ -588,6 +588,11 @@
   width: 100%;
   border-radius: 50%;
   height: 100%;
+  display: block;
+	transition: 0.5s;
+}
+.l-news__img:hover {
+  transform: scale(0.9, 0.9);
 }
 .l-news__text {
   font-size: clamp(0.438rem, -0.455rem + 1.86vw, 0.938rem);
