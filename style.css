@@ -456,6 +456,8 @@
   width: 100%;
   position: relative;
   top: -250px;
+  height: 0;
+  margin-bottom: 500px;
 }
 
 .l-drink__img {
@@ -507,7 +509,7 @@
   width: 25%;
   z-index: -100;
   position: relative;
-  top: -470px;
+  bottom: 170px;
   right: -60%;
 }
 .l-main__advertisementImg3 {
@@ -518,7 +520,7 @@
 .l-main__advertisementImgBox4 {
   width: 12%;
   position: relative;
-  top: -720px;
+  bottom: 360px;
   right: -66%;
 }
 .l-main__advertisementImg4 {
@@ -607,13 +609,13 @@
 }
 .l-news__dateBox {
   width: 50%;
-  margin-right: 10%;
+  margin-right: 20%;
   position: relative;
 }
 .l-news__dateBox::after {
   position: absolute;
 	top: 0;
-	left: 100%;
+	left: 110%;
 	margin: 0 1rem;
 	content: "";
 	width: 1px;
@@ -626,12 +628,12 @@
   text-align: center;
 }
 .l-news__categoryContent {
-  width: 50%;
+  /* width: 50%; */
 }
 .l-news__category {
   text-align: center;
   font-size: clamp(0.063rem, -1.499rem + 3.25vw, 0.938rem);
-  margin-left: 10%;
+  margin-left: 40%;
   margin-block: 0px;
 }
 .l-main__allnews {
