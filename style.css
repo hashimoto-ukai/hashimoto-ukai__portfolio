@@ -517,16 +517,6 @@
   animation:15s linear infinite rotation1;
 }
 
-.l-main__advertisementImgBox4 {
-  width: 12%;
-  position: relative;
-  bottom: 360px;
-  right: -66%;
-}
-.l-main__advertisementImg4 {
-  width: 100%;
-  z-index: 200;
-}
 
 
 
@@ -996,25 +986,72 @@
     left: 0;
     width: 100%;
 }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 768px) and (max-width: 900px){
+  .l-main__advertisementImgBox3 {
+  width: 25%;
+  z-index: -100;
+  position: relative;
+  bottom: 160px;
+  right: -61%;
+  }
+  .l-main__advertisementImg3 {
+  width: 100%;
+  animation:15s linear infinite rotation1;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 450px){
+  .l-main__advertisementImgBox3 {
+  width: 45%;
+  z-index: -100;
+  position: relative;
+  top: -110px;
+  right: -65%;
+}
+.l-main__advertisementImg3 {
+  width: 100%;
+  animation:15s linear infinite rotation1;
+  }
+}
+@media only screen and (min-width: 451px) and (max-width: 550px){
+  .l-main__advertisementImgBox3 {
+  width: 45%;
+  z-index: -100;
+  position: relative;
+  top: -130px;
+  right: -65%;
+  }
+.l-main__advertisementImg3 {
+  width: 100%;
+  animation:15s linear infinite rotation1;
+  }
+}
+@media only screen and (min-width: 551px) and (max-width: 650px) {
+  .l-main__advertisementImgBox3 {
+  width: 45%;
+  z-index: -100;
+  position: relative;
+  top: -170px;
+  right: -65%;
+  }
+  .l-main__advertisementImg3 {
+  width: 100%;
+  animation:15s linear infinite rotation1;
+  }
+}
+@media only screen and (min-width: 651px) and (max-width: 769px){
+  .l-main__advertisementImgBox3 {
+    width: 45%;
+    z-index: -100;
+    position: relative;
+    top: -210px;
+    right: -65%;
+    }
+    .l-main__advertisementImg3 {
+    width: 100%;
+    animation:15s linear infinite rotation1;
+    }
 }
 
 
@@ -1047,8 +1084,12 @@
 
 
 
+
+
+
+
 /* SPスタイル */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body {
     font-family: "Noto Sans JP", sans-serif;
   }
@@ -1549,7 +1590,7 @@
   z-index: 2;
   font-size: clamp(0.625rem, -0.568rem + 5.09vw, 1.875rem);
 }
-.l-main__advertisementImgBox3 {
+/* .l-main__advertisementImgBox3 {
   width: 45%;
   z-index: -100;
   position: relative;
@@ -1559,17 +1600,7 @@
 .l-main__advertisementImg3 {
   width: 100%;
   animation:15s linear infinite rotation1;
-}
-.l-main__advertisementImgBox4 {
-  width: 20%;
-  position: relative;
-  bottom: 380px;
-  left: 76%;
-}
-.l-main__advertisementImg4 {
-  width: 100%;
-  z-index: 200;
-}
+} */
 
 
 
