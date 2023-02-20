@@ -541,7 +541,7 @@
     $(document).ready(function(){
       $('.slider-001').slick({
         infinite: true, //スライドのループ
-        dots:true, //ドットのナビゲーション
+        // dots:true, //ドットのナビゲーション
         centerMode: true, //要素を中央寄せ
         centerPadding:'35%', //両サイドの見えている部分のサイズ
         // autoplay:true, //自動再生
@@ -550,7 +550,7 @@
         responsive: [{
           breakpoint: 769,
           settings: {
-            centerPadding:'15%',
+            centerPadding:'9%',
           },
         }],
       });
@@ -572,7 +572,6 @@
     $(document).ready(function(){
       $('.l-news__listBox').slick({
         infinite: true,
-        dots:true,
         centerMode: true,
         centerPadding:'40%',
         // autoplay:true,
@@ -608,7 +607,6 @@
         var width = $(window).width();
         if(width <= 768){
           $(".l-main__recommend").slick({
-            dots: true,
             autoplay:true,
       });
         } else {
